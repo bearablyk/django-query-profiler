@@ -24,7 +24,7 @@ pip install bear-django-query-profiler
 
     ```python
     # settings.py
-    QUERY_PROFILER_IGNORE_PATTERNS = ['global_system_logs', 'django_session']
+    QUERY_PROFILER_IGNORE_PATTERNS = ['global_system_logs']
     ```
 
 3.  Ensure your logging is configured to display `DEBUG` level messages.
